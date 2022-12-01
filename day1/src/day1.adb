@@ -7,7 +7,11 @@ procedure Day1 with
 is
    function Numeric (S : String) return Boolean is
      (S'Length > 0 and then (for all C of S => C in '0' .. '9'));
+   --  Checks if a string is numeric (composed only of decimal digits) or not.
+   --  Returns false for empty strings.
 
+   --  I'm unclear on what pre-conditions 'Big_Integers.From_String' has, so to
+   --  avoid a 'pragma Annotate', I've just reimplemented it here.
    function To_Number (S : String) return Big_Integer with
      Pre => Numeric (S)
    is

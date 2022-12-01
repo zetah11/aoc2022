@@ -11,4 +11,6 @@ Some solutions in Ada/SPARK.
 Install [Alire](https://alire.ada.dev/) and navigate to the given day (e.g.
 `cd day1`). Run `alr run` to execute the code, and `alr gnatprove` to verify it.
 
+Ada 2022 is required for things like bigint support.
+
 Input data is usually hardcoded to be an `inputs.txt` file.
