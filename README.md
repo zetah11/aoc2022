@@ -8,13 +8,15 @@ Some solutions in Ada/SPARK.
 | 2   | [day2.adb](day2/src/day2.adb) | Yes    |
 | 3   | [day3.adb](day3/src/day3.adb) | Yes    |
 | 4   | [day4/](day4/src/)            | Yes    |
+| 5   | [day5.adb](day5/src/day5.adb) | No     |
 
 ## Build instructions
 
 Install [Alire](https://alire.ada.dev/) and navigate to the given day (e.g.
 `cd day1`). Run `alr run` to execute the code, and `alr gnatprove` to verify it.
 
-Ada 2022 is required for things like bigint support.
+Ada 2022 is required for things like bigint support, square bracket array
+literals, and non-scalar images.
 
 Input data is usually hardcoded to be an `inputs.txt` file. The output is
 usually two lines for each part.
