@@ -10,6 +10,7 @@ Some solutions in Ada/SPARK.
 | 4   | [day4/](day4/src/)            | Yes    |
 | 5   | [day5.adb](day5/src/day5.adb) | No     |
 | 6   | [day6.adb](day6/src/day6.adb) | Yes    |
+| 7   | [day7.adb](day7/src/day7.adb) | Yes    |
 
 ## Build instructions
 

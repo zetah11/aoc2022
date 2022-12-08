@@ -1,0 +1,11 @@
+name = "day7"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["zetah11"]
+maintainers = ["zetah11 <findusxi@protonmail.com>"]
+maintainers-logins = ["zetah11"]
+
+executables = ["day7"]
+[[depends-on]]
+gnatprove = "^12.1.1"
